@@ -1,5 +1,6 @@
-#Create a model that predicts the probability that a fastener passes based on load.
 
+#Create a model that predicts the probability that a fastener passes based on load.
+#Let $\pi$ be the probability that fasteners passes the test. 
 # download data
 Aircraft.fasteners <- read.csv("Aircraftfasteners.csv", header= TRUE)
 attach(Aircraft.fasteners)
